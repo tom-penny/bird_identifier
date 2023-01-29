@@ -116,16 +116,13 @@ body{
 
 nav {
   margin-left: 0px;
-  height: 30px;
+  height: 40px;
   display: flex;
-  background-repeat: no-repeat;
-  object-fit: cover;
-  justify-content: center;
+  flex-direction: row;
   align-items: center;
+  justify-content: center;
   padding-top: 15px;
   padding-bottom: 15px;
-  /* background-image: url("birdie.jpg"); */
-  background-size: cover;
 }
 
 .mainTitle {
@@ -133,14 +130,13 @@ nav {
 }
 
 nav a {
-  display: flex;
-  align-items: center;
   padding-left: 15px;
   padding-right: 15px;
+  display: flex;
+  align-items: center;
   text-decoration: none;
   font-weight: bold;
   font-size: 19px;
-  vertical-align: text-top;
 }
 
 .WelcomeTitle {
